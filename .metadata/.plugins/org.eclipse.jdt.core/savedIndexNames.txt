@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+/home/dale/Desktop/PhotoGallery/.metadata/.plugins/org.eclipse.jdt.core
+239002149.index
+3699643608.index
+1270315800.index
