@@ -1,0 +1,12 @@
+package com.example.photogallery;
+
+import android.app.IntentService;
+
+public class PollService extends IntentService {
+
+	private static final String TAG = "PollService";
+	
+	public PollService(){
+		super(TAG);
+	}
+}
