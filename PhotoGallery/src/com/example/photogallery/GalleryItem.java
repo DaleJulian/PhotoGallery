@@ -1,36 +1,46 @@
 package com.example.photogallery;
 
 public class GalleryItem {
+    private String mCaption;
+    private String mId;
+    private String mUrl;
+    private String mOwner;
+    
+    public String getCaption() {
+        return mCaption;
+    }
+    public void setCaption(String caption) {
+        mCaption = caption;
+    }
+    public String getId() {
+        return mId;
+    }
+    public void setId(String id) {
+        mId = id;
+    }
+    
+    public String getUrl() {
+        return mUrl;
+    }
 
-	private String mCaption;
-	private String mId;
-	private String mUrl;
-	
-	public String toString(){
-		return mCaption;
-	}
+    public void setUrl(String url) {
+        mUrl = url;
+    }
 
-	public String getmCaption() {
-		return mCaption;
-	}
+    public String getOwner() {
+        return mOwner;
+    }
 
-	public void setmCaption(String mCaption) {
-		this.mCaption = mCaption;
-	}
+    public void setOwner(String owner) {
+        mOwner = owner;
+    }
+    
+    public String getPhotoPageUrl() {
+        return "http://www.flickr.com/photos/" + mOwner + "/" + mId;
+    }
 
-	public String getmId() {
-		return mId;
-	}
+    public String toString() {
+        return mCaption;
+    }
 
-	public void setmId(String mId) {
-		this.mId = mId;
-	}
-
-	public String getmUrl() {
-		return mUrl;
-	}
-
-	public void setmUrl(String mUrl) {
-		this.mUrl = mUrl;
-	}
 }

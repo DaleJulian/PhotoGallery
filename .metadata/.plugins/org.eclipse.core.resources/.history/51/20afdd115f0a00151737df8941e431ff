@@ -1,0 +1,18 @@
+package com.example.photogallery;
+
+import android.os.Bundle;
+import android.webkit.WebView;
+
+public class PhotoPageFragment extends VisibleFragment {
+
+	private String mUrl;
+	private WebView mWebView;
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setRetainInstance(true);
+		
+		mUrl = getActivity().getIntent().getData().toString();
+	}
+}

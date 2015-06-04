@@ -1938,7 +1938,7 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f0a0027;
         public static final int expanded_menu=0x7f0a0037;
         public static final int fragmentContainer=0x7f0a004f;
-        public static final int gallery_item_imageView=0x7f0a0051;
+        public static final int gallery_item_imageView=0x7f0a0054;
         public static final int gridView=0x7f0a0050;
         public static final int home=0x7f0a0000;
         public static final int homeAsUp=0x7f0a000e;
@@ -1947,15 +1947,16 @@ containing a value of this type.
         public static final int image=0x7f0a0028;
         public static final int listMode=0x7f0a000a;
         public static final int list_item=0x7f0a002a;
-        public static final int menu_item_clear=0x7f0a0053;
-        public static final int menu_item_search=0x7f0a0052;
-        public static final int menu_item_toggle_polling=0x7f0a0054;
+        public static final int menu_item_clear=0x7f0a0056;
+        public static final int menu_item_search=0x7f0a0055;
+        public static final int menu_item_toggle_polling=0x7f0a0057;
         public static final int middle=0x7f0a0022;
         public static final int multiply=0x7f0a0014;
         public static final int never=0x7f0a001c;
         public static final int none=0x7f0a000f;
         public static final int normal=0x7f0a000b;
         public static final int parentPanel=0x7f0a002d;
+        public static final int progressBar=0x7f0a0053;
         public static final int progress_circular=0x7f0a0007;
         public static final int progress_horizontal=0x7f0a0008;
         public static final int radio=0x7f0a003a;
@@ -1984,10 +1985,12 @@ containing a value of this type.
         public static final int tabMode=0x7f0a000c;
         public static final int textSpacerNoButtons=0x7f0a0033;
         public static final int title=0x7f0a002c;
+        public static final int titleTextView=0x7f0a0052;
         public static final int title_template=0x7f0a002f;
         public static final int topPanel=0x7f0a002e;
         public static final int up=0x7f0a0001;
         public static final int useLogo=0x7f0a0013;
+        public static final int webView=0x7f0a0051;
         public static final int withText=0x7f0a001d;
         public static final int wrap_content=0x7f0a0009;
     }
@@ -2048,11 +2051,12 @@ containing a value of this type.
         public static final int abc_simple_dropdown_hint=0x7f030018;
         public static final int activity_fragment=0x7f030019;
         public static final int fragment_photo_gallery=0x7f03001a;
-        public static final int gallery_item=0x7f03001b;
-        public static final int select_dialog_item_material=0x7f03001c;
-        public static final int select_dialog_multichoice_material=0x7f03001d;
-        public static final int select_dialog_singlechoice_material=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int fragment_photo_page=0x7f03001b;
+        public static final int gallery_item=0x7f03001c;
+        public static final int select_dialog_item_material=0x7f03001d;
+        public static final int select_dialog_multichoice_material=0x7f03001e;
+        public static final int select_dialog_singlechoice_material=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
     }
     public static final class menu {
         public static final int fragment_photo_gallery=0x7f0d0000;
